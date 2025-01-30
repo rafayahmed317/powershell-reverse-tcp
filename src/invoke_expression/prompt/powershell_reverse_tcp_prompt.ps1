@@ -1,6 +1,6 @@
-$addr = $(Read-Host -Prompt "Enter address").Trim();
+$addr = "192.168.100.3";
 Write-Host "";
-$port = $(Read-Host -Prompt "Enter port number").Trim();
+$port = "9000";
 Write-Host "";
 if ($addr.Length -lt 1 -or $port.Length -lt 1) {
 	Write-Host "Both parameters are required";
